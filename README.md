@@ -48,14 +48,20 @@ yay -S pokedex-terminal
 git clone https://github.com/secretlay3r/pokedex-terminal
 ```
 
-2. Cd into the repo directory and run the install script:
+2. Cd into the repo directory:
 
 ```
 cd pokedex-terminal
-sudo ./install.sh
 ```
 
-3. To see all available commands, run:
+3. Set execution policy and run the install script:
+
+```
+chmod u+x install.sh
+./install.sh
+```
+
+4. To see all available commands, run:
 
 ```
 pokemon -h
@@ -128,7 +134,9 @@ yay -R pokedex-terminal
 ### Other Systems
 
 ```
-sudo ./uninstall.sh
+cd pokedex-terminal
+chmod u+x uninstall.sh
+./uninstall.sh
 ```
 
 ---
