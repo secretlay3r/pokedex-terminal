@@ -41,4 +41,17 @@ else
     echo "$BASHRC not found, skipping shell config cleanup"
 fi
 
+if [ -f "$BASHRC" ]; then
+    sed -i.bak '/pokemon/d' "$BASHRC" && echo "Removed 'pokemon' command from $BASHRC"
+else
+    echo "$BASHRC not found, skipping shell config cleanup"
+fi
+
+ZSHRC="$USER_HOME/.zshrc"
+if [ -f "$ZSHRC" ]; then
+    sed -i.bak '/pokemon/d' "$ZSHRC" && echo "Removed 'pokemon' command from $ZSHRC"
+else
+    echo "$ZSHRC not found, skipping shell config cleanup"
+fi
+
 echo "pokedex-terminal uninstalled successfully."
