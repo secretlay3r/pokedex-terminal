@@ -9,22 +9,11 @@ Print monochrome Kanto / Gen 1 Pokémon whenever you want.
 
 ---
 
-## Screenshots
+## Preview
 
-<p align="left">
-  <a href="https://github.com/user-attachments/assets/adaec27b-b21d-4ea5-82b4-e7982ca40dc0" target="_blank">
-    <img src="https://github.com/user-attachments/assets/adaec27b-b21d-4ea5-82b4-e7982ca40dc0" width="350" alt="Screenshot 1" />
+  <a href="https://github.com/user-attachments/assets/5c92df0c-db9f-4a33-948b-de97ecd83aca" target="_blank">
+    <img src="https://github.com/user-attachments/assets/5c92df0c-db9f-4a33-948b-de97ecd83aca" width="1080" alt="screenshot" />
   </a> 
-  <a href="https://github.com/user-attachments/assets/df86e275-7c09-40d1-9e0d-60f73f3bd784" target="_blank">
-    <img src="https://github.com/user-attachments/assets/df86e275-7c09-40d1-9e0d-60f73f3bd784" width="350" alt="Screenshot 2" />
-  </a> 
-  <a href="https://github.com/user-attachments/assets/d04b85db-e33f-463a-8ee0-6efff76a91a6" target="_blank">
-    <img src="https://github.com/user-attachments/assets/d04b85db-e33f-463a-8ee0-6efff76a91a6" width="350" alt="Screenshot 3" />
-  </a> 
-  <a href="https://github.com/user-attachments/assets/5fa66009-6bda-4d4a-817c-4921286312b0" target="_blank">
-    <img src="https://github.com/user-attachments/assets/5fa66009-6bda-4d4a-817c-4921286312b0" width="350" alt="Screenshot 4" />
-  </a>
-</p>
 
 ---
 
@@ -40,7 +29,7 @@ You can install it with the yay helper:
 yay -S pokedex-terminal
 ```
 
-### Other Systems
+### Other Linux
 
 1. Clone or download the repository:
 
@@ -131,7 +120,7 @@ Running `pokemon` or `pokemon -r` will print a random Pokémon.
 yay -R pokedex-terminal
 ```
 
-### Other Systems
+### Other Linux
 
 ```
 cd pokedex-terminal
@@ -149,4 +138,4 @@ chmod u+x uninstall.sh
 - [pokeget](https://github.com/talwat/pokeget)  
 - [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts)
   
-and perhaps many others I forgot to mention..
+and perhaps many others I forgot to mention...
