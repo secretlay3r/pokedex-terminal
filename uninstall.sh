@@ -11,8 +11,6 @@ else
 fi
 
 
-
-DESKTOP_ENTRY_DIR="$USER_HOME/.local/share/applications"
 BASHRC="$USER_HOME/.bashrc"
 
 echo "Uninstalling pokedex-terminal..."
